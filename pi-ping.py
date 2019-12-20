@@ -19,9 +19,9 @@ while True:
     time.sleep(0.5) # sleep for 1/2 a second
   else:
     now = datetime.now()  # sets now with current data and time to that the logs can be time stamped
-    f= open("ping_log.log","a+")  # open a file called ping_log.log in apend mode 
+    f= open("/var/www/html/ping_log.html","a+")  # open a file called ping_log.log in apend mode 
     f.write(str(now))    # write the curent time to the ping_log file
-    f.write("  internet is down\n") # print internet is down text to the log file
+    f.write("  internet is down<br>\n") # print internet is down text to the log file
     f.close()   # close the file
     print ('internet is down!')
     GPIO.output(21, 1) # turn on pin 21 LED
