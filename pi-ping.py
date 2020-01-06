@@ -4,8 +4,8 @@ import RPi.GPIO as GPIO
 import time
 from datetime import datetime
 
-#IP = '192.168.1.254' #ping router gatway IP address
-IP = '8.8.8.8' #ping google DNS server 
+IP = '192.168.1.254' #ping router gatway IP address
+#IP = '8.8.8.8' #ping google DNS server 
 
 GPIO.setwarnings(False) # stops errer message due to pins in old state may need to look at a cleaner way to do this
 GPIO.setmode(GPIO.BCM) # set board mode to Broadcom

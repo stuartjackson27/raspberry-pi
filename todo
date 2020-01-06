@@ -1,0 +1,7 @@
+-desplay total good/bad packets
+-desplay %avalbilaty
+-add a button to clear log files
+-build app in a Docker
+-build frunt page in jango
+-build a settings page for things like ping time and ping IP address
+
